@@ -6,11 +6,16 @@ import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import PortfolioModal from "./components/PortfolioModal";
-// importa aquí lo que ya tenías en Home
+
+// Si aquí usabas useSearchParams, déjalo aquí:
+import { useSearchParams } from "next/navigation";
 
 export default function HomeClient() {
-  // TODO: aquí va tu lógica actual, incluyendo el useSearchParams()
-  // y el return de tu página.
+  const searchParams = useSearchParams();
+
+  // TODO: pega aquí tu lógica actual tal cual (useEffect, estados, handlers, etc.)
+  // Ejemplo: abrir modal si ?work=... etc.
+
   return (
     <>
       <HeroSlider />
