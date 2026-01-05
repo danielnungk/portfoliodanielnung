@@ -9,8 +9,8 @@ export default function ContactSection() {
   const instagram = "https://instagram.com/danielnung";
 
   return (
-    <section id="contact" className="scroll-mt-24 px-6 py-32">
-      <div className="mx-auto max-w-6xl text-center">
+    <section id="contact" className="w-full scroll-mt-24 py-12">
+      <div className="mx-auto max-w-6xl px-6 text-center">
         {/* Header */}
         <h2 className="text-2xl md:text-3xl font-semibold">
           ¿Tienes un proyecto en mente?
@@ -86,11 +86,6 @@ export default function ContactSection() {
             </p>
           </a>
         </div>
-
-        {/* Footer copy */}
-        <p className="mt-12 text-sm text-white/45">
-          Torreón, Coahuila · Disponible para proyectos y colaboraciones
-        </p>
       </div>
     </section>
   );

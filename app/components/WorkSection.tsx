@@ -341,8 +341,8 @@ export default function WorkSection() {
   };
 
   return (
-    <section ref={sectionRef} id="work" className="scroll-mt-24 px-6 py-24">
-      <div className="mx-auto max-w-6xl">
+    <section ref={sectionRef} id="work" className="w-full scroll-mt-24 py-12">
+     <div className="mx-auto max-w-6xl px-6">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
           <div>

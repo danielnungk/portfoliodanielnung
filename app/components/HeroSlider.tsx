@@ -158,11 +158,11 @@ export default function HeroSlider() {
           </p>
 
           <h1 className="mt-2 text-2xl md:text-4xl font-semibold leading-tight">
-            Filmmaker & Photographer
+            Fotógrafo y filmmaker
           </h1>
 
           <p className="mt-2 text-sm md:text-[15px] text-white/70 leading-relaxed">
-            Contenido visual cinematográfico para autos, motos y marcas.
+            Creador de contenido para autos, motos y marcas.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">

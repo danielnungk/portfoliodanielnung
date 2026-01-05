@@ -10,7 +10,7 @@ const brands = [
 
 export default function Brands() {
   return (
-    <section id="brands" className="w-full py-24">
+    <section id="brands" className="w-full py-12">
       <div className="mx-auto max-w-6xl px-6">
         {/* Header */}
         <div className="max-w-3xl">

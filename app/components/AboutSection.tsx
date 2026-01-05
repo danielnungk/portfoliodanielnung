@@ -16,8 +16,8 @@ export default function AboutSection() {
   }, []);
 
   return (
-    <section id="about" className="scroll-mt-24 px-6 py-32">
-      <div className="mx-auto max-w-6xl">
+    <section id="about" className="w-full py-12">
+      <div className="mx-auto max-w-6xl px-6">
         {/* Header */}
         <div className="flex flex-col gap-4">
           <h2 className="text-2xl md:text-3xl font-semibold">Mi enfoque</h2>
@@ -33,6 +33,10 @@ export default function AboutSection() {
             <span className="rounded-full border border-white/15 bg-white/[0.02] px-3 py-1 text-xs text-white/80">
               Reels para marcas
             </span>
+            <span className="rounded-full border border-white/15 bg-white/[0.02] px-3 py-1 text-xs text-white/80">
+            Drone · Tomas aéreas
+          </span>
+
           </div>
         </div>
 
@@ -74,7 +78,7 @@ export default function AboutSection() {
 
             <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
               <p className="text-xs tracking-[0.25em] uppercase text-white/60">Especialidad</p>
-              <p className="mt-3 text-lg font-medium">Reels cinematográficos y foto para redes</p>
+              <p className="mt-3 text-lg font-medium">Reels cinematográficos y foto para redes + tomas aéreas con dron</p>
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
