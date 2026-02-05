@@ -9,7 +9,9 @@ type Slide = {
   alt: string;
 };
 
-export default function HeroSlider() {
+export default function HeroSlider() { 
+  // El hero slider es una galeria que tiene imagenes dinamicas 
+  // Que se van mostrando en el inicio de la pagina, va cambiando por tiempo
   const slides: Slide[] = useMemo(
     () => [
       { mobile: "/slider/1-v.jpg", desktop: "/slider/1-h.jpg", alt: "Slide 1" },
@@ -25,7 +27,7 @@ export default function HeroSlider() {
   const [paused, setPaused] = useState(false);
   const [showSwipeHint, setShowSwipeHint] = useState(false);
 
-  // ✅ Detecta si es mobile (Tailwind md = 768px) — versión pro con matchMedia
+  // Detecta si es mobile (Tailwind md = 768px) — versión pro con matchMedia
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     const mq = window.matchMedia("(max-width: 767px)");
@@ -137,7 +139,7 @@ export default function HeroSlider() {
       style={{ touchAction: "pan-y" }}
     >
       {/* Copy / identidad (UX) */}
-      {/* ✅ CENTRADO SOLO EN MOBILE */}
+      {/* CENTRADO SOLO EN MOBILE */}
       <div
         className="
           absolute

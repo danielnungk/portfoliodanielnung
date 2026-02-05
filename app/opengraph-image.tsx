@@ -1,4 +1,6 @@
-// app/opengraph-image.tsx
+// Genera la imagen Open Graph de la pagina.
+// Es la imagen se muestra como miniatura al compartir la web en redes sociales (WhatsApp, Facebook, X, etc.).
+
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";

@@ -7,16 +7,18 @@ import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import PortfolioModal from "./components/PortfolioModal";
 import Brands from "./components/Brands";
-
-// Si aquí usabas useSearchParams, déjalo aquí:
 import { useSearchParams } from "next/navigation";
+
+
+//Aqui va toda la pagina en orden, empezando por el HeroSlider y terminando con el Footer,
+//dependiendo del orden es como se muestra en la pagina
 
 export default function HomeClient() {
   const searchParams = useSearchParams();
 
   return (
     <>
-       <HeroSlider />
+            <HeroSlider />             
             <WorkSection />
             <PortfolioModal />
             <Brands />
@@ -26,3 +28,5 @@ export default function HomeClient() {
     </>
   );
 }
+
+
