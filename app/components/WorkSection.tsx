@@ -15,6 +15,21 @@ type WorkItem = {
 
 const WORK: WorkItem[] = [
   {
+    title: "Ducati Lamborghini",
+    category: "Motos",
+    type: "Foto",
+    cover: "/work/covers/ducati-lamborghini.jpg",
+    gallery: [
+      "/work/ducati-lamborghini/1.jpg",
+      "/work/ducati-lamborghini/2.jpg",
+      "/work/ducati-lamborghini/3.jpg",
+      "/work/ducati-lamborghini/4.jpg",
+      "/work/ducati-lamborghini/5.jpg",
+      "/work/ducati-lamborghini/6.jpg",
+      "/work/ducati-lamborghini/7.jpg"
+    ],
+  },
+  {
     title: "Ducati Panigale V2",
     category: "Retrato",
     type: "Foto",
@@ -622,11 +637,3 @@ export default function WorkSection() {
     </section>
   );
 }
-
-/**
- * Opcional (si aún no lo tienes): esconder scrollbar de chips horizontal
- * en globals.css:
- *
- * .no-scrollbar::-webkit-scrollbar { display: none; }
- * .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
- */
