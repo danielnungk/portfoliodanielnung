@@ -3,6 +3,7 @@
 
 const brands = [
   { name: "Ducati", src: "/brands/ducativ1.png" },
+  { name: "BYD", src: "/brands/bydv1.png" },
   { name: "CFMOTO", src: "/brands/cfmotov1.png" },
   { name: "GAC", src: "/brands/gacv1.png" },
   { name: "Changan", src: "/brands/changanv1.png" },
