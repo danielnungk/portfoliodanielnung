@@ -15,6 +15,23 @@ type WorkItem = {
 
 const WORK: WorkItem[] = [
   {
+    title: "GAC Emzoom R",
+    category: "Autos",
+    type: "Foto",
+    cover: "/work/covers/gac-emzoom-r.jpg",
+    gallery: [
+      "/work/gac-emzoom-r/1.jpg",
+      "/work/gac-emzoom-r/2.jpg",
+      "/work/gac-emzoom-r/3.jpg",
+      "/work/gac-emzoom-r/4.jpg",
+      "/work/gac-emzoom-r/5.jpg",
+      "/work/gac-emzoom-r/6.jpg",
+      "/work/gac-emzoom-r/7.jpg",
+      "/work/gac-emzoom-r/8.jpg",
+      "/work/gac-emzoom-r/9.jpg"
+    ],
+  },
+  {
     title: "Ducati Lamborghini",
     category: "Motos",
     type: "Foto",
@@ -27,6 +44,19 @@ const WORK: WorkItem[] = [
       "/work/ducati-lamborghini/5.jpg",
       "/work/ducati-lamborghini/6.jpg",
       "/work/ducati-lamborghini/7.jpg"
+    ],
+  },
+  {
+    title: "CHANGAN HUNTER",
+    category: "Autos",
+    type: "Foto",
+    cover: "/work/covers/changan-hunter.jpg",
+    gallery: [
+      "/work/changan-hunter/1.jpg",
+      "/work/changan-hunter/2.jpg",
+      "/work/changan-hunter/3.jpg",
+      "/work/changan-hunter/4.jpg",
+      "/work/changan-hunter/5.jpg",
     ],
   },
   {
@@ -127,19 +157,7 @@ const WORK: WorkItem[] = [
       "/work/changan-cs55/5.jpg",
     ],
   },
-  {
-    title: "CHANGAN HUNTER",
-    category: "Autos",
-    type: "Foto",
-    cover: "/work/covers/changan-hunter.jpg",
-    gallery: [
-      "/work/changan-hunter/1.jpg",
-      "/work/changan-hunter/2.jpg",
-      "/work/changan-hunter/3.jpg",
-      "/work/changan-hunter/4.jpg",
-      "/work/changan-hunter/5.jpg",
-    ],
-  },
+  
 ];
 
 type Filter = "Todos" | "Autos" | "Motos" | "Retrato";

@@ -61,53 +61,55 @@ const DEFAULT_REEL_DESCRIPTION =
 
 
 const items: PortfolioItem[] = [
+
   {
-    id: "cfmoto-01",
-    title: "CFMOTO 450SR-S Reel",
-    category: "Motos",
-    client: "CFMOTO",
-    year: "2024",
-    role: "Cámara · Edición que atrapa",
-    highlight: "Look premium con motion y detalles.",
-    description: "Reel enfocado en la retención de audicencia y en mostrar el modelo.",
-    type: "video",
-    cover: "/portfolio/cfmoto-01-cover.jpg",
-    src: cloudinaryOptimized(
-      "https://res.cloudinary.com/dmoezxwgx/video/upload/v1767474138/cfmoto-450srs_jkekyw.mp4"
-    ),
-    aspect: "vertical",
-    featured: true,
-  },
-  {
-    id: "ducati-01",
-    title: "Ducati Panigale V4S Reel",
-    category: "Motos",
-    client: "Ducati",
-    year: "2024",
-    role: "Dirección · Cámara · Edición",
-    highlight: "Ritmo + detalle para máxima retención.",
-    description: "Reel enfocado en la retención de audicencia y en mostrar el modelo de forma dinámica.",
-    type: "video",
-    cover: "/portfolio/ducati-01-cover.jpg",
-    src: cloudinaryOptimized(
-      "https://res.cloudinary.com/dmoezxwgx/video/upload/v1767474142/panigale-v4s_fcpabh.mp4"
-    ),
-    aspect: "vertical",
-    featured: true,
-  },
-  {
-    id: "changan-01",
-    title: "Changan — Video promocional",
+    id: "byd-01",
+    title: "BYD Agencia Reel",
     category: "Comercial",
-    client: "Changan",
-    year: "2024",
-    role: "Dirección · Cámara · Edición",
-    highlight: "Video hecho para publicidad general de la agencia.",
-    description: "Comercial hecho para redes y publicidad.",
+    client: "BYD",
+    year: "2026",
+    role: "Cámara + Drone - Edición que atrapa",
+    highlight: "Detalles generales de la agencia.",
+    description: "Reel enfocado en la en mostrar la agencia, ubicación y sus autos modelo.",
     type: "video",
-    cover: "/portfolio/changan-01-cover.jpg",
+    cover: "/portfolio/byd-01-cover.png",
     src: cloudinaryOptimized(
-      "https://res.cloudinary.com/dmoezxwgx/video/upload/v1767474142/changan-demo_zxsh5q.mp4"
+      "https://res.cloudinary.com/dmoezxwgx/video/upload/v1772116932/BYD_Agencia_xeq9uy.mp4"
+    ),
+    aspect: "vertical",
+    featured: true,
+  },
+
+  {
+    id: "byd-02",
+    title: "BYD Song plus",
+    category: "Comercial",
+    client: "BYD",
+    year: "2026",
+    role: "Cámara - Edición que atrapa",
+    highlight: "Promocion SUV Song plus",
+    description: "Reel promocional para BYD enfocado en publicidad a la Song plus con la influencer Ana Mora",
+    type: "video",
+    cover: "/portfolio/byd-02-cover.png",
+    src: cloudinaryOptimized(
+      "https://res.cloudinary.com/dmoezxwgx/video/upload/v1772117296/BYD_Song_plus_gnwuyr.mp4"
+    ),
+    aspect: "vertical",
+    featured: true,
+  },
+  {
+    id: "gac-03",
+    title: "GAC — GS8 Reel",
+    category: "Comercial",
+    client: "GAC",
+    year: "2026",
+    role: "Dirección · Cámara · Edición",
+    highlight: "Reel de promoción al modelo GS8 de GAC",
+    description: "Reel dinámico enfocado a la GS8 de GAC",
+    type: "video",
+    cover: "/portfolio/gac-03-cover.png",
+    src: cloudinaryOptimized(
+      "https://res.cloudinary.com/dmoezxwgx/video/upload/v1772117592/GS8_sjli5z.mov"
     ),
     aspect: "vertical",
   },
@@ -127,6 +129,24 @@ const items: PortfolioItem[] = [
     ),
     aspect: "vertical",
   },
+
+  {
+    id: "changan-01",
+    title: "Changan — Video promocional",
+    category: "Comercial",
+    client: "Changan",
+    year: "2024",
+    role: "Dirección · Cámara · Edición",
+    highlight: "Video hecho para publicidad general de la agencia.",
+    description: "Comercial hecho para redes y publicidad.",
+    type: "video",
+    cover: "/portfolio/changan-01-cover.jpg",
+    src: cloudinaryOptimized(
+      "https://res.cloudinary.com/dmoezxwgx/video/upload/v1767474142/changan-demo_zxsh5q.mp4"
+    ),
+    aspect: "vertical",
+  },
+
   {
     id: "gac-02",
     title: "GAC GN8 — Reel de presentación",
@@ -142,6 +162,42 @@ const items: PortfolioItem[] = [
       "https://res.cloudinary.com/dmoezxwgx/video/upload/v1767474142/gac-gn8_h5osfu.mov"
     ),
     aspect: "vertical",
+  },
+
+   {
+    id: "ducati-01",
+    title: "Ducati Panigale V4S Reel",
+    category: "Motos",
+    client: "Ducati",
+    year: "2024",
+    role: "Dirección · Cámara · Edición",
+    highlight: "Ritmo + detalle para máxima retención.",
+    description: "Reel enfocado en la retención de audicencia y en mostrar el modelo de forma dinámica.",
+    type: "video",
+    cover: "/portfolio/ducati-01-cover.jpg",
+    src: cloudinaryOptimized(
+      "https://res.cloudinary.com/dmoezxwgx/video/upload/v1767474142/panigale-v4s_fcpabh.mp4"
+    ),
+    aspect: "vertical",
+    featured: true,
+  },
+
+  {
+    id: "cfmoto-01",
+    title: "CFMOTO 450SR-S Reel",
+    category: "Motos",
+    client: "CFMOTO",
+    year: "2024",
+    role: "Cámara · Edición que atrapa",
+    highlight: "Look premium con motion y detalles.",
+    description: "Reel enfocado en la retención de audicencia y en mostrar el modelo.",
+    type: "video",
+    cover: "/portfolio/cfmoto-01-cover.jpg",
+    src: cloudinaryOptimized(
+      "https://res.cloudinary.com/dmoezxwgx/video/upload/v1767474138/cfmoto-450srs_jkekyw.mp4"
+    ),
+    aspect: "vertical",
+    featured: true,
   },
 ];
 
@@ -213,20 +269,10 @@ export default function PortfolioModal() {
     return ["Todo", ...Array.from(set)] as const;
   }, []);
 
-  const filtered = useMemo(() => {
-    const base = filter === "Todo" ? items : items.filter((i) => i.category === filter);
-    // ✅ Featured first, then year desc
-    return [...base].sort((a, b) => {
-      const fa = a.featured ? 1 : 0;
-      const fb = b.featured ? 1 : 0;
-      if (fa !== fb) return fb - fa;
-
-      const ya = Number(a.year ?? 0);
-      const yb = Number(b.year ?? 0);
-      if (ya !== yb) return yb - ya;
-
-      return a.title.localeCompare(b.title);
-    });
+ const filtered = useMemo(() => {
+  return filter === "Todo"
+    ? items
+    : items.filter((i) => i.category === filter);
   }, [filter]);
 
   useLockBodyScroll(modalOpen);
